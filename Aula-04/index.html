@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Aula-04></Aula-04></title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)</p>
+    <p>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)</p>
+    <h2>Itálico / Ênfase </h2>
+    <p>Nesta frase vamos encontrar com uma palavra em <i>itálico</i> usando a tag i (nãp semântica)</p>
+    <p>Nesta frase vamos encontrar com uma palavra em <EM>itálico</EM> usando a tag EM (com semântica)</p>
+    <h2>Texto Marcador</h2>
+    <p>Aqui vamos usar um texto com destaque <mark> de marcador de texto</mark> usando mark</p>
+    <p>Aqui vamos usar um texto com destaque <mark>  de marcador de texto</mark> usando mark</p>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos trabalhando aqui com um texto <BIG> texto grande </BIG> e um texto pequeno nesta frase</p>
+    <h2>Texto Deletado</h2>
+    <p>Neste paragrafo vamos trabalhar com um texto <del> que foi deletado</del> da frase (forma semântica)</p>
+    <h2>Texto inserido</h2>
+    <p>Nesta frase vamos demonstrar como <u> destacar texto inserido</u> na frase de forma semântica</p>
+    <p>Nesta frase vamos demonstrar como <ins>destacar texto inserido</ins> na frase de forma (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando a tag sup</p>
+    <h2>Texto subescrito</h2>
+    <p>Vamos demonstrar o texto subescrito como a formula da água H<sub>2</sub>O</p>
+    <h2>Texto do código fonte</h2>
+    <p>Neste exemplo vou demonstrar um trecho de código</p>
+    <p>inserindo o comando document.getElemeentById('edtCodigo') que é um comando java script </p>
+    <p>inserindo um longo código me python:</p>
+<pre>
+    <code>
+        import math
+
+            # Coeficientes da equação
+            a = float(input("Digite o valor de a: "))
+            b = float(input("Digite o valor de b: "))
+            c = float(input("Digite o valor de c: "))
+
+            # Cálculo do delta
+            delta = b**2 - 4*a*c
+
+            # Verificação das raízes
+            if delta > 0:
+                x1 = (-b + math.sqrt(delta)) / (2*a)
+                x2 = (-b - math.sqrt(delta)) / (2*a)
+                print("Duas raízes reais:")
+                print("x1 =", x1)
+                print("x2 =", x2)
+
+            elif delta == 0:
+                x = -b / (2*a)
+                print("Uma raiz real:")
+                print("x =", x)
+
+            else:
+    print("Não existem raízes reais.")
+    </code>
+</pre>
+<h2>Citações (quotation) simples</h2>
+<p>Segundo Stve Jobs 'A tecnologia move o mundo'</p>
+
+<h2>Citações Completas (livros)</h2> 
+
+<blockquote cite="https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-paulista/corinthians/volante-titular-do-corinthians-e-preservado-para-cuidar-de-tornozelo-saiba-detalhes" >
+<p>sinistro</p>
+</blockquote>
+
+<h2>Abreviações</h2>
+<p> Estamos estudando </p>
+</body>
+</html>
