@@ -1,0 +1,31 @@
+.box {
+    width: 30%;
+    padding:20px ;
+    border: 4px solid rgb(17, 16, 17) ;
+    border: radius 6px; ;
+}
+ 
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+a::before {
+    content: '♬' ;
+    color: black;
+}
+
+a::after {
+    content: '♬' ;
+    color: black;
+}
+
+a:hover {
+    color: rgb(201, 3, 250);
+}
+
+a:active {
+    color: red;
+     
+}
