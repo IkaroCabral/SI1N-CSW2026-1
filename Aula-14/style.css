@@ -1,0 +1,63 @@
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 3px  solid black;
+    border-radius: 6px;
+    padding: 40px;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    width: 50px;
+   height: 15px;
+   background-color: black;
+   border-radius: 6px ;
+}
+
+.logo {
+    width:65px;
+    height: 50px;
+     background-color: black;
+     border-radius: 8px;
+}
+
+/*--------------------------------------------------*/
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    border: 3px solid #555;
+    background-color: rgb(224, 224, 222);    
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.item-2 {
+    width: 150px;
+   height: 15px;
+   background-color: black;
+   border-radius: 6px ;
+   
+}
+
+.item-2x {
+   height: 65px;
+   border: 5px;
+   border-radius: 6px;
+   background-color: aqua;
+   border: 3px solid #555;
+   
+}
+.item-3 {
+   flex-grow: 2;
+   flex: 2 0 20px;
+}
