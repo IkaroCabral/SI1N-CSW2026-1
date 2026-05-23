@@ -28,16 +28,17 @@ else{
 
 
 
-
+/*enviar o nome*/
 function exibeNomeAluno() {
-    window.alert('dentro da função')
+     let inputAluno = document.getElementById('inputNomeAluno').value; 
+     document.getElementById('resposta').innerHTML = " o nome do aluno digitado foi: " + inputAluno;
+
 }
 
-function exibeNomeAluno() {
-     let imputAluno = document.getElementById('ipnutNomeAluno').value; 
-     document.getElementById('resposta').innerHTML = " o nome do aluno digitadpo foi: ' + inputAluno";
-
-     document.getElementById('resposta')
+/*limpar tudo*/
+function apagaNomeAluno() {
+    document.getElementById('inputNomeAluno').value = ""; 
+     document.getElementById('resposta').innerHTML = "";
 }
 
 
