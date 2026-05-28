@@ -1,0 +1,8 @@
+ var ano_atual = 2026
+    var ano_de_nascimento = document.getElementById("anodenascimento").value
+    var idade = ano_atual - anonascimento  
+    document.getElementById("resultado").innerHTML = "Você tem:"  + anodenascimento
+}
+
+
+ alert ("ano") 
